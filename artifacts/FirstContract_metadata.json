@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.12+commit.f00d7308"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "firstFunction",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "unit1",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/firstcontract.sol": "FirstContract"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/firstcontract.sol": {
+			"keccak256": "0xa7ab1cb957b91b13910822cfd3418c3111033db339eeb9eb985d27a44b66c127",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://a9bc088f064cbbf556557f6ec4efeaf03b10c5b6491a447479d75cec809cd9ec",
+				"dweb:/ipfs/QmXUZnDpjzP6BHKZWhAwNwVy4ZRqVXtKG9wPZd7Aa6r1JE"
+			]
+		}
+	},
+	"version": 1
+}
